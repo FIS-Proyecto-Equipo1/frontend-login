@@ -24,7 +24,7 @@ function App() {
       <h1>Login example</h1>
       <div>
         <div>
-          <label for="user">Usuario</label>
+          <label htmlFor="user">Usuario</label>
         </div>
         <div>
           <input id="user" type="text" {...username} />
