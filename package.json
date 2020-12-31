@@ -7,10 +7,18 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
+    "bufferutil": "^4.0.2",
+    "canvas": "^2.6.1",
+    "fibers": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "sass": "^1.32.0",
+    "ts-node": "^9.1.1",
+    "utf-8-validate": "^5.0.3",
+    "web-vitals": "^0.2.4",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-plugin-serve": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
