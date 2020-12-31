@@ -1,7 +1,8 @@
 language: node_js
 node_js: 
-  - "9"
-install: 
-  - npm install
+  - "11.0.0"
+install:
+ - npm install
 script:
-  - npm test
+ - npm i -g npm
+ - npm test
