@@ -32,7 +32,7 @@ function App() {
       </div>
       <div style={{ marginTop: 10 }}>
         <div>
-          <label for="pass">Contraseña</label>
+          <label htmlFor="pass">Contraseña</label>
         </div>
         <div>
           <input id="pass" type="password" {...password} />
@@ -44,16 +44,16 @@ function App() {
   );
 }
 
-const useFormInput = initialValue => {
+function useFormInput(initialValue) {
   const [value, setValue] = useState(initialValue);
- 
+
   const handleChange = e => {
     setValue(e.target.value);
-  }
+  };
   return {
     value,
     onChange: handleChange
-  }
+  };
 }
 
 export default App;
